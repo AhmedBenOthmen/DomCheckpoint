@@ -1,0 +1,22 @@
+#cart {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+    
+}
+
+.cartProduct {
+    display: flex;
+
+    justify-content: space-between;
+    height: 100%;
+    margin-right: 10px; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+    text-align: center; 
+}
+
+.liked {
+    color: red ;
+}
